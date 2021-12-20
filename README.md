@@ -1,7 +1,7 @@
 # torque-arduino
 ## Use your own Arduino(etc) based designs in Torque
 
-There is a special protocol in Torque that lets you connect to devices such as the Arduino, Raspberry pi, and lets you feed the app your own sensor data.   This includes allowing you to tell Torque what sensors are available
+There is a special protocol in [Torque Pro](https://play.google.com/store/apps/details?id=org.prowl.torque) that lets you connect to devices such as the Arduino, Raspberry pi, and lets you feed the app your own sensor data.   This includes allowing you to tell Torque what sensors are available
 
 The example below uses an Arduino UNO And Micro, a generic bluetooth tx/rx module and a couple of potentiometers as example sensors.  Torque will connect to the arduino, retrieve the list of sensors, then you can view them in the app!
 
